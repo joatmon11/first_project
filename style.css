@@ -31,6 +31,7 @@ h1 {
 
 .subheader {
     font-size: 36px;
+    margin: 16px 0 24px 0;
 }
 
 button {
@@ -64,7 +65,10 @@ li {
 .row {
    width: 100%;
    max-width: 1300px;
+   margin: 0 auto;
    display: flex;
+   align-items: center;
+   justify-content: center;
 }
 
 /* About Section */
@@ -127,10 +131,9 @@ form {
 }
 
 input, textarea {
-    margin-bottom: 16px;
+    margin-bottom: 24px;
     padding: 6px 12px;
-    border: 1px solid black;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 /* About Footer */
